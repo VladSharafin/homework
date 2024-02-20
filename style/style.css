@@ -10,6 +10,11 @@ body {
     font-weight: 400;
     background-color: white;
     color: var(--primary-color-dark);
+    margin: 0;
+    
+}
+p{
+    margin: 0;
 }
 
 a {
@@ -35,41 +40,57 @@ h2 {
 /*Container*/
 .container {
     width: 100%;
-    max-width: 1268px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 100px;
+    
 }
 
 /*Header*/
 .header {
     position: absolute;
-    top: 0;
     left: 0;
+    top: 0;
+    width: 100%;
     height: 106px;
-    background-color: rebeccapurple;
+    background-color: transparent;
 }
 
 .header__nav {
     display: flex;
     align-items: center;
-    text-align: center;
-    padding: 37px 0;
+    padding: 32px 0;
+    gap: 240px;
 
 }
 
 .header__menu {
     display: flex;
     gap: 56px;
-    margin-left: 20%;
-    margin-right: 15%;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .header__contacts {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
+
+
 /*Hero section*/
+.hero_section{
+    padding-top: 106px;
+    height: 657.93px;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    
+    
+    
+}
 
 .hero__title {
     font-size: 140px;
